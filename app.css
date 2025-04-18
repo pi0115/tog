@@ -1,7 +1,79 @@
-img {
-    display: center;
+@import url('https://fonts.googleapis.com/css2?family=Kavivanar&family=Sriracha&display=swap');
+
+nav {
+    padding: 10px 15px;
+    margin-top: 20px;
+    background: #495057;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    word-spacing: 40px;
+
 }
 
 h1 {
     text-align: center;
+}
+
+h2 {
+    color: #495057;
+    font-size: 40px;
+}
+
+
+div {
+    text-align: center;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+    word-spacing: 40px;
+    text-align: right;
+}
+
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown button {
+    background: #e9eccef;
+    color: ;
+    font-size: 25px;
+
+    border: none;
+}
+
+.dropdown a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    10px 15px;
+}
+
+.dropdown .content {
+    display: none;
+    position: absolute;
+    background-color: #495057S;
+    min-width: 100px;
+    font-size: 25px;
+}
+
+.dropdown:hover .content {
+    display: block;
+    text-align: center;
+}
+
+.dropdown:hover button {
+    background-color: #e9ecef;
+    font-size: 25px;
+}
+
+.dropdown a:hover {
+    background-color: rgb(81, 61, 100);
+    font-size: 25px;
 }
